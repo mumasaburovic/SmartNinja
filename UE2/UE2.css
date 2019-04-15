@@ -1,0 +1,59 @@
+p {
+    
+color: red;
+    margin-bottom: 35px;
+    
+}
+
+p strong {
+    
+    
+color:brown;
+    
+}
+
+h1{
+    
+    color:darkblue;
+    background-color: lightcoral;
+    height: 40px;
+    width: 140px;
+}
+
+#helpers {
+    
+    
+    color:forestgreen;
+}
+
+.listelement{
+    
+    color: coral;
+}
+
+#hobby{
+    
+    color:pink;
+}
+
+html, body {
+    
+    background-color:seagreen;
+    
+}
+
+div.one{
+    
+     border-style: dotted;
+  border-color: red green blue black;
+    height: 250px;
+  width: 250px;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
