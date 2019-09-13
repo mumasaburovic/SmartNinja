@@ -1,0 +1,400 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: Open Sans !important;
+	background-color: lightyellow!important;
+	margin: 0 !important;
+	width: 100%;
+}
+
+a {
+	cursor: pointer;
+	color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.back{
+    background-color: burlywood;
+    border-radius:10px;
+    padding: inherit;
+    border: 2px solid white;
+    height:40px;
+    width:200px;
+    text-align: center;
+    color:greenyellow;
+    
+}
+
+.back:hover {
+	
+    background-color:rosybrown;
+    width: 200px;
+    height: 50 px;
+    border-radius:10px;
+    margin: 5px 5px 5px 5px;
+    padding: inherit;
+    border: 5px solid;
+    text-align: center;
+    color:aqua;
+    
+}
+
+.image {
+	    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+a:active {
+	color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.navigation {
+	font-size: 20px;
+    height: 0.1px;
+    
+}
+
+.main {
+	color: black;
+	height: auto;;
+	background: gold;
+    text-align: justify;
+    
+    
+    
+}
+
+.nav-bar {
+	display: flex;
+	width: 100%;
+	height: 80px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+    background-color:antiquewhite;
+    border: 2px solid gold;
+}
+
+.logo {
+	margin-left: 2px;
+	width: 100px;
+}
+
+.links {
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-evenly;
+	font-weight: 600;
+	align-self: center;
+}
+
+
+
+
+.contact {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.8) !important;
+	padding: 10px 20px 10px 20px;
+	border-radius: 4px;
+	background-color: #5A60C0;
+	margin-right: 30px;
+}
+
+.second {
+    background-color: aqua;
+}
+
+.header {
+    
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 180px;
+	flex-direction: column;
+}
+
+h1 {
+	font-size: 3.5rem !important;
+}
+
+.icon-container {
+    display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+}
+
+.fa {
+	font-size: 50px;
+}
+
+.icon-number {
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.icon-text {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.flex-30 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.text-align-center {
+	text-align: center !important;
+	width: 100%;
+}
+
+.team-img {
+	width: 50%;
+	height: 200px;
+	border-radius: 50%;
+	border: 3px solid black;
+}
+
+.our-team {
+	color: black;
+
+}
+
+.contact-section {
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+
+.mapouter {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	width: 100% !important;
+	height: 500px;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 2px solid black;
+}
+
+section {
+	width: 100% !important;
+}
+
+section:nth-child(3),
+section:nth-child(4),
+section:nth-child(5),
+section:nth-child(6) {
+	border-top: 2px solid blacK;
+}
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	height: 500px;
+	width: 1080px;
+}
+
+.row {
+    background-color:bisque;
+}
+
+
+
+.card{
+    margin: 10px 30px 20px 30px;
+    border: 5px solid black;
+    background-color: bisque;
+    height:auto;
+    width: auto;
+}
+
+.card-body1{
+    
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(95,141,255,1) 53%, rgba(0,212,255,1) 100%);
+    color: black;
+    height: 500px;
+    margin-bottom: 200px;
+    padding-bottom: 100px;
+    border-radius: 5px;
+    border: 3px solid black;
+    
+}
+
+.card-header {
+	border-radius: 100px;
+    background-color:blanchedalmond;
+}
+
+.card-body{
+    
+    width: auto;
+    height:950px;
+    align-items: center;
+    background: bisque;
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(95,141,255,1) 53%, rgba(0,212,255,1) 100%);
+    opacity: 0.9;
+    color:black;
+    border-radius: 10px;
+    border: 20px solid lightblue;
+    
+    
+}
+
+.card-body p{
+    width: 100%;
+    height: 80%;
+    margin: 5px 5px 5px 5px;
+    
+    font-size: 1.3vw;
+}
+
+.card-body1 p{
+        width: 100%;
+    
+    height: 80%;
+    margin: 60px 60px 5px 5px;
+    font-size: 1.3vw;
+    padding-right: 30px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: brown;
+	z-index: 1000;
+	margin-top: 0px;
+	height: 100px;
+}
+
+#kontakt {
+    height:auto;
+    width: auto;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius:10px;
+    border: 2px solid white;
+}
+
+#kontakt1 {
+    height:auto;
+    width: auto;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#kontakt2 {
+    height:auto;
+    width: auto;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#kontakt3 {
+    height:auto;
+    width: auto;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#kontakt4 {
+    height:auto;
+    width: auto;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#kontakt:active {
+    background-color: rosybrown;
+    border: 2px solid black;
+	
+}
+
+#kontakt1:active {
+    background-color: rosybrown;
+    border: 2px solid black;
+	
+}
+
+#kontakt2:active {
+    background-color: rosybrown;
+    border: 2px solid black;
+	
+}
+
+#kontakt3:active {
+    background-color: rosybrown;
+    border: 2px solid black;
+	
+}
+
+#kontakt4:active {
+    background-color: rosybrown;
+    border: 2px solid black;
+	
+}
+
+#kontakt:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+	
+}
+
+#kontakt1:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+	
+}
+
+#kontakt2:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+	
+}
+
+#kontakt3:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+	
+}
+
+#kontakt4:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+
+
+
+

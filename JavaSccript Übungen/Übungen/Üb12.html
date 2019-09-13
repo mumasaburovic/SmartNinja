@@ -1,0 +1,58 @@
+<html>
+<head>
+    
+    <title>JAvaScript</title>
+    
+    </head>
+    
+    <body>
+        
+        <p>How many fingers do I hold in the air?</p>
+        <p><input type="text" id="unserezahl"></p>
+        <p><button id="vergleichen">go</button></p>
+        
+        
+    <script type="text/javascript">
+        
+        var x = Math.floor(Math.random() * 5 +1);
+        
+         document.getElementById("vergleichen").onclick = function(){
+             
+             var randomNumber = Math.random();
+             
+             randomNumber = randomNumber * 6;
+             
+             randomNumber = Math.floor(randomNumber);
+        
+           if(document.getElementById("unserezahl").value == randomNumber) {
+               
+             randomNumber = Math.random();
+             
+             randomNumber = randomNumber * 6;
+             
+             randomNumber = Math.floor(randomNumber);
+               
+               alert("Sehr gut du hast es erraten!");
+           }else{
+               
+               alert("nein, versuche es erneut");
+               
+           }
+           }
+        
+        
+        </script>
+    
+    
+    
+    
+    
+    </body>
+
+
+
+
+
+
+
+</html>

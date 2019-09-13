@@ -1,0 +1,82 @@
+<html>
+    
+    <head>
+    
+    <style type="text/css">
+        
+        .kreis{
+            width:130px;
+            height:130px;
+            margin-right:50px;
+            float:left;
+            border-radius:50%;
+        }
+        
+        
+        #kreis-rot{
+            background-color:red;
+        }
+        
+        
+         #kreis-blau{
+            background-color:darkblue;
+        }
+        
+         #kreis-gelb{
+            background-color:yellow;
+        }
+        
+        </style>
+    
+    </head>
+    
+    <body>
+        
+        <script type="text/javascript">
+            
+            var name = "Denis";
+            
+            alert(name);
+            
+        </script>
+        
+        
+    
+        <div class="kreis" id="kreis-rot"></div>
+        <div class="kreis" id="kreis-blau"></div>
+        <div class="kreis" id="kreis-gelb"></div>
+        <button id="reset">RESET</button> 
+    
+    <script type="text/javascript">
+        
+        
+        document.getElementById("kreis-rot").onclick = function(){
+            
+            document.getElementById("kreis-rot").style.display = "none";
+        }
+        
+           document.getElementById("kreis-blau").onclick = function(){
+            
+            document.getElementById("kreis-blau").style.display = "none";
+        }
+           
+              document.getElementById("kreis-gelb").onclick = function(){
+            
+            document.getElementById("kreis-gelb").style.display = "none";
+        }
+        
+              document.getElementById("reset").onclick = function(){
+                  
+                  document.getElementById("kreis-blau").style.display = "inline";
+                  
+                  document.getElementById("kreis-rot").style.display = "inline";
+                  
+                  document.getElementById("kreis-gelb").style.display = "inline";
+              }
+        
+        </script>
+    
+    
+    </body>
+    
+</html>
